@@ -15,7 +15,7 @@ namespace Example3
             string s = Console.ReadLine();
             string[] massiv = s.Split(' ');
 
-            for (int i = 1; i < massiv.Length; i++)
+            for (int i = 0; i < massiv.Length; i++)
             {
                 a = Double.Parse(massiv[i]);
                 for (int j = 1; j <= Math.Sqrt(a); j++)
