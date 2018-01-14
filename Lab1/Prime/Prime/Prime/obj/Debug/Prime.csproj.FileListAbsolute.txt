@@ -1,0 +1,6 @@
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\bin\Debug\Prime.exe.config
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\bin\Debug\Prime.exe
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\bin\Debug\Prime.pdb
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\obj\Debug\Prime.csproj.CoreCompileInputs.cache
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\obj\Debug\Prime.exe
+C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Prime\Prime\Prime\obj\Debug\Prime.pdb
