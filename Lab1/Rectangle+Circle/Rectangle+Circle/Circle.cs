@@ -9,21 +9,34 @@ namespace Rectangle_Circle
     class Circle
     {
         public double radius;
-        public double findArea;
-        public double findDiameter;
-        public double findCircumference;
+        public double Area;
+        public double Diameter;
+        public double Circumference;
 
         public Circle(double r)
         {
             radius = r;
-            findArea = 3.14 * r * r;
-            findDiameter = 2 * r;
-            findCircumference = 2 * r * 3.14;
+            FindArea();
+            FindCircumference();
+            FindDiameter();
+        }
+
+        public void FindArea ()
+        {
+            Area = 3.14 * radius * radius;
+        }
+        public void FindDiameter ()
+        {
+            Diameter = 2 * radius;
+        }
+        public void FindCircumference()
+        {
+            Circumference = 2 * 3.14 * radius;
         }
 
         public override string ToString()
         {
-            return findArea + " " + findDiameter + " " + findCircumference;
+            return Area + " " + Diameter + " " + Circumference;
         }
     }
 }

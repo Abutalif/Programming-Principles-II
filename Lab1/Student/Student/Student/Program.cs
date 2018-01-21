@@ -18,6 +18,12 @@ namespace Example5
             this.lastname = lastname;
             this.gpa = gpa;
         }
+        public Student(string name, string lastname)
+        {
+            this.name = name;
+            this.lastname = lastname;
+            this.gpa = 4;
+        }
 
         public override string ToString()
         {
@@ -29,7 +35,7 @@ namespace Example5
     {
         static void Main(string[] args)
         {
-            Student s = new Student(Console.ReadLine(), Console.ReadLine(), double.Parse(Console.ReadLine()));
+            Student s = new Student("Bobur", "Mukhsimbayev");
             Console.WriteLine(s);
         }
     }

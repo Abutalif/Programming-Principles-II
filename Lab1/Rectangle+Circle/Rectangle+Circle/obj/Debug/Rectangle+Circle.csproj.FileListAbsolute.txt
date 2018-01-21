@@ -5,3 +5,10 @@ C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Rectangle+Circle\Re
 C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Rectangle+Circle\Rectangle+Circle\bin\Debug\Rectangle+Circle.pdb
 C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.exe
 C:\Users\Куаныш\Desktop\Programming Principles II\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.pdb
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\bin\Debug\Rectangle+Circle.exe.config
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\bin\Debug\Rectangle+Circle.exe
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\bin\Debug\Rectangle+Circle.pdb
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.csprojResolveAssemblyReference.cache
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.csproj.CoreCompileInputs.cache
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.exe
+C:\Users\Куаныш\Desktop\Programming-Principles-II-master\Lab1\Rectangle+Circle\Rectangle+Circle\obj\Debug\Rectangle+Circle.pdb

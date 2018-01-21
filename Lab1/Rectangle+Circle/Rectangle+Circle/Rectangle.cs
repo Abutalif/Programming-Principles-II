@@ -10,20 +10,27 @@ namespace Rectangle_Circle
     {
         public double width;
         public double height;
-        public double findArea;
-        public double findPerimetr;
+        public double Area;
+        public double Perimetr;
 
         public Rectangle(double w, double h)
         {
             width = w;
             height = h;
-            findArea = w * h;
-            findPerimetr = (w + h) * 2;
+            FindArea();
+            FindPerimetr();
         }
-
+        public void FindArea()
+        {
+            Area = width * height;
+        }
+        public void FindPerimetr()
+        {
+            Perimetr = 2 * (width + height);
+        }
         public override string ToString()
         {
-            return findArea + " " + findPerimetr;
+            return Area + " " + Perimetr;
         
         }
     }
