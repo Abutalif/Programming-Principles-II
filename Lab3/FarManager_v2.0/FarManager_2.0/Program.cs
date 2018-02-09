@@ -24,7 +24,7 @@ namespace FarManager_2._0
                     break;
                 }
                 if (i == pos)
-                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Magenta;
                 else
                     Console.BackgroundColor = ConsoleColor.Black;
 
@@ -43,15 +43,13 @@ namespace FarManager_2._0
         {
             FileSystemInfo[] UpperFile = s.GetFileSystemInfos();
 
-            Console.SetCursorPosition(0, a);
-            Console.BackgroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(0 , a);
+            Console.BackgroundColor = ConsoleColor.Magenta;
             if (UpperFile[a].GetType() == typeof(DirectoryInfo))
                 Console.ForegroundColor = ConsoleColor.Red;
             else
                 Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(UpperFile[a].Name);
-
-
             Console.SetCursorPosition(0, b);
             Console.BackgroundColor = ConsoleColor.Black;
             if (UpperFile[b].GetType() == typeof(DirectoryInfo))
@@ -68,7 +66,7 @@ namespace FarManager_2._0
             FileSystemInfo[] LowerFile = ss.GetFileSystemInfos();
 
             Console.SetCursorPosition(0, x);
-            Console.BackgroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Magenta;
             if (LowerFile[x].GetType() == typeof(DirectoryInfo))
                 Console.ForegroundColor = ConsoleColor.Red;
             else
@@ -93,8 +91,7 @@ namespace FarManager_2._0
         }
         public static void Main(string[] args)
         {
-            Console.SetWindowSize(103, 43);
-            Console.SetWindowPosition(0, 0);
+            Console.SetWindowSize(100, 50);
             Console.CursorVisible = false;
             int pos = 0;
 
@@ -151,10 +148,7 @@ namespace FarManager_2._0
                         quit = true;
                         break;
                     case ConsoleKey.Backspace:
-
-
                         FileSystemInfo fo = dir.Parent;
-
                         dir = new DirectoryInfo(fo.FullName);
                         Console.Clear();
                         Console.SetCursorPosition(0, 0);
@@ -170,7 +164,7 @@ namespace FarManager_2._0
                             dir = new DirectoryInfo(fl.FullName);
 
                             Console.Clear();
-
+                            pos = 0;
                             ShowFolders(dir, pos);
                         }
                         else
